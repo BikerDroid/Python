@@ -3,6 +3,7 @@
 Pings host or ip address. Returns: 'host', 'ip', 'size', 'ttl', 'sent', 'recieved', 'lost', 'min_ms', 'max_ms', 'average_ms'
 
 >>> p = PyPing3( ping_count=4, timeout=4, verbose=True, cached_stdout=False )
+
 >>> res = p.ping('google.com')
 
 Pinging google.com [172.217.18.14] with 25 bytes of data:\n
